@@ -16,6 +16,7 @@
 		BF1354C627C1966300E1A292 /* TechPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1354C527C1966300E1A292 /* TechPodTests.swift */; };
 		BF1354D027C1966300E1A292 /* TechPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1354CF27C1966300E1A292 /* TechPodUITests.swift */; };
 		BF1354D227C1966300E1A292 /* TechPodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1354D127C1966300E1A292 /* TechPodUITestsLaunchTests.swift */; };
+		BF1354DF27C199C300E1A292 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = BF1354DE27C199C300E1A292 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF1354CB27C1966300E1A292 /* TechPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1354CF27C1966300E1A292 /* TechPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPodUITests.swift; sourceTree = "<group>"; };
 		BF1354D127C1966300E1A292 /* TechPodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1354DE27C199C300E1A292 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		BF1354AD27C1965900E1A292 /* TechPod */ = {
 			isa = PBXGroup;
 			children = (
+				BF1354DE27C199C300E1A292 /* Resources */,
 				BF1354AE27C1965900E1A292 /* AppDelegate.swift */,
 				BF1354B027C1965A00E1A292 /* SceneDelegate.swift */,
 				BF1354B227C1965A00E1A292 /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1354DF27C199C300E1A292 /* Resources in Resources */,
 				BF1354BB27C1966300E1A292 /* LaunchScreen.storyboard in Resources */,
 				BF1354B827C1966300E1A292 /* Assets.xcassets in Resources */,
 				BF1354B627C1965A00E1A292 /* Main.storyboard in Resources */,
