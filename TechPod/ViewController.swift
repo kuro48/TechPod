@@ -43,6 +43,7 @@ class ViewController: UIViewController ,UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         
         cell?.textLabel?.text = songNameArray[indexPath.row]
@@ -52,7 +53,7 @@ class ViewController: UIViewController ,UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("\(songNameArray[indexPath.row])が選ばれました")
+        print("\(songNameArray[indexPath.row])が選ばれました！")
         
         let audioPath = URL(fileURLWithPath: Bundle.main.path(forResource: fileNameArray[indexPath.row], ofType: "mp3")!)
         
